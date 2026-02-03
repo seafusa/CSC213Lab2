@@ -17,7 +17,7 @@ and [Java 21](https://www.oracle.com/java/technologies/downloads/#java21) on you
 
 Perform the steps below and answer the questions as you go. Each question is worth 1 point unless stated otherwise.
 
-## Part 1: Compiling a Java program | Looking at a compiler's output | Looking at compiler options
+## Part 1 (5pts.): Compiling a Java program | Looking at a compiler's output | Looking at compiler options
 
 Perform the following steps to compile a Java program.
 
@@ -32,7 +32,7 @@ Perform the following steps to compile a Java program.
 
 You used the java compiler to compile the program. There are many compile options (or flags). You can see all these options by entering in: `javac --help`.
 
-### Q1: Recompile the program you created using the `-verbose` flag. Copy and paste the resulting compilation output below, explain what the `-verbose` flag does, and the meaning of the output.
+### Q1 (2pts.): Recompile the program you created using the `-verbose` flag. Copy and paste the resulting compilation output below, explain what the `-verbose` flag does, and the meaning of the output.
 
 [Answer Here]
 
@@ -44,7 +44,7 @@ You used the java compiler to compile the program. There are many compile option
 
 [Answer Here]
 
-## Part 2: Using the `Math` **Library**
+## Part 2 (3pts.): Using the `Math` **Library**
 
 Leave the existing code in the file and add the requested functionality to it:
 
@@ -62,7 +62,7 @@ Leave the existing code in the file and add the requested functionality to it:
 
 [Answer Here]
 
-## Part 3: Using the Java API `math` **Package**.
+## Part 3 (9pts.): Using the Java API `math` **Package**.
 
 Leave the existing code in the file and add the requested functionality to it:
 
@@ -78,11 +78,11 @@ import java.math.*;
     - **Hint**: You need to do an object assignment here!
 7. Print out their summed value.
 
-### Q5: What is the value of the summed primitive `int`s? Explain why the value is either correct or incorrect.
+### Q5 (2pts.): What is the value of the summed primitive `int`s? Explain why the value is either correct or incorrect.
 
 [Answer Here]
 
-### Q6: What is the value for the summed `BigInteger` objects? Explain why the value is either correct or incorrect.
+### Q6 (2pts.): What is the value for the summed `BigInteger` objects? Explain why the value is either correct or incorrect.
 
 [Answer Here]
 
