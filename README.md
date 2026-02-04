@@ -188,7 +188,7 @@ import java.math.*;
 
 ### Q7 (2pts.): Why is it the case that there is no `BigShort` or `BigLong`?
 
-Those two classes already account for this dilemma thus there is no need for them to e "Big"
+Those two classes already account for this dilemma thus there is no need for them to be "Big"
 
 ### Q8: Upload this file and your Java source code to the corresponding D2L dropbox.
 
