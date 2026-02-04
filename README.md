@@ -34,15 +34,115 @@ You used the java compiler to compile the program. There are many compile option
 
 ### Q1 (2pts.): Recompile the program you created using the `-verbose` flag. Copy and paste the resulting compilation output below, explain what the `-verbose` flag does, and the meaning of the output.
 
-[Answer Here]
+Means to show me what is happening
+
+[parsing started SimpleFileObject[C:\Users\ahmed\Downloads\compsci\sem4\IdeaProjects\CSC213Lab2\Lab2.java]]
+[parsing completed 18ms]
+[loading /modules/java.base/module-info.class]
+[loading /modules/jdk.naming.dns/module-info.class]
+[loading /modules/java.transaction.xa/module-info.class]
+[loading /modules/jdk.zipfs/module-info.class]
+[loading /modules/jdk.jconsole/module-info.class]
+[loading /modules/jdk.dynalink/module-info.class]
+[loading /modules/jdk.crypto.mscapi/module-info.class]
+[loading /modules/java.sql.rowset/module-info.class]
+[loading /modules/jdk.graal.compiler/module-info.class]
+[loading /modules/java.security.jgss/module-info.class]
+[loading /modules/jdk.jdwp.agent/module-info.class]
+[loading /modules/java.desktop/module-info.class]
+[loading /modules/java.smartcardio/module-info.class]
+[loading /modules/jdk.management.agent/module-info.class]
+[loading /modules/jdk.charsets/module-info.class]
+[loading /modules/java.xml.crypto/module-info.class]
+[loading /modules/java.management.rmi/module-info.class]
+[loading /modules/jdk.internal.ed/module-info.class]
+[loading /modules/jdk.incubator.vector/module-info.class]
+[loading /modules/jdk.sctp/module-info.class]
+[loading /modules/jdk.crypto.ec/module-info.class]
+[loading /modules/jdk.attach/module-info.class]
+[loading /modules/java.xml/module-info.class]
+[loading /modules/jdk.management/module-info.class]
+[loading /modules/jdk.jdeps/module-info.class]
+[loading /modules/jdk.net/module-info.class]
+[loading /modules/jdk.jartool/module-info.class]
+[loading /modules/java.naming/module-info.class]
+[loading /modules/jdk.nio.mapmode/module-info.class]
+[loading /modules/java.datatransfer/module-info.class]
+[loading /modules/java.rmi/module-info.class]
+[loading /modules/jdk.internal.jvmstat/module-info.class]
+[loading /modules/jdk.jcmd/module-info.class]
+[loading /modules/jdk.internal.opt/module-info.class]
+[loading /modules/java.instrument/module-info.class]
+[loading /modules/jdk.jpackage/module-info.class]
+[loading /modules/jdk.unsupported/module-info.class]
+[loading /modules/java.net.http/module-info.class]
+[loading /modules/jdk.internal.md/module-info.class]
+[loading /modules/jdk.compiler/module-info.class]
+[loading /modules/java.sql/module-info.class]
+[loading /modules/jdk.security.jgss/module-info.class]
+[loading /modules/java.security.sasl/module-info.class]
+[loading /modules/jdk.jsobject/module-info.class]
+[loading /modules/java.management/module-info.class]
+[loading /modules/jdk.hotspot.agent/module-info.class]
+[loading /modules/jdk.management.jfr/module-info.class]
+[loading /modules/java.logging/module-info.class]
+[loading /modules/jdk.unsupported.desktop/module-info.class]
+[loading /modules/java.prefs/module-info.class]
+[loading /modules/jdk.jshell/module-info.class]
+[loading /modules/jdk.security.auth/module-info.class]
+[loading /modules/jdk.naming.rmi/module-info.class]
+[loading /modules/jdk.jlink/module-info.class]
+[loading /modules/jdk.graal.compiler.management/module-info.class]
+[loading /modules/jdk.jdi/module-info.class]
+[loading /modules/jdk.jstatd/module-info.class]
+[loading /modules/jdk.xml.dom/module-info.class]
+[loading /modules/jdk.httpserver/module-info.class]
+[loading /modules/java.se/module-info.class]
+[loading /modules/jdk.editpad/module-info.class]
+[loading /modules/jdk.javadoc/module-info.class]
+[loading /modules/jdk.accessibility/module-info.class]
+[loading /modules/jdk.internal.vm.ci/module-info.class]
+[loading /modules/jdk.jfr/module-info.class]
+[loading /modules/jdk.internal.le/module-info.class]
+[loading /modules/jdk.crypto.cryptoki/module-info.class]
+[loading /modules/jdk.localedata/module-info.class]
+[loading /modules/java.scripting/module-info.class]
+[loading /modules/java.compiler/module-info.class]
+[search path for source files: .]
+[search path for class files: C:\Users\ahmed\Downloads\compsci\sem4\First_time_java\oracleJdk-25\lib\modules,.]
+[loading /modules/java.base/java/lang/Object.class]
+[loading /modules/java.base/java/lang/String.class]
+[loading /modules/java.base/java/lang/Exception.class]
+[loading /modules/java.base/java/lang/Deprecated.class]
+[loading /modules/java.base/java/lang/annotation/Retention.class]
+[loading /modules/java.base/java/lang/annotation/RetentionPolicy.class]
+[loading /modules/java.base/java/lang/annotation/Target.class]
+[loading /modules/java.base/java/lang/annotation/ElementType.class]
+[checking Lab2]
+[loading /modules/java.base/java/io/Serializable.class]
+[loading /modules/java.base/java/lang/AutoCloseable.class]
+[loading /modules/java.base/java/lang/Throwable.class]
+[loading /modules/java.base/java/lang/System.class]
+[loading /modules/java.base/java/io/PrintStream.class]
+[loading /modules/java.base/java/lang/Appendable.class]
+[loading /modules/java.base/java/io/Closeable.class]
+[loading /modules/java.base/java/io/FilterOutputStream.class]
+[loading /modules/java.base/java/io/OutputStream.class]
+[loading /modules/java.base/java/io/Flushable.class]
+[loading /modules/java.base/java/lang/Comparable.class]
+[loading /modules/java.base/java/lang/CharSequence.class]
+[loading /modules/java.base/java/lang/constant/Constable.class]
+[loading /modules/java.base/java/lang/constant/ConstantDesc.class]
+[wrote Lab2.class]
+[total 322ms]
 
 ### Q2: What is the name of the *type* of file generated by the `javac` compilation process?
 
-[Answer Here]
+Class file 
 
 ### Q3: Copy the *compiled* Java source file, rename it to some other valid file name, like `whatever.class`, and run it with the `java` command. Why does it not work?
 
-[Answer Here]
+It is not the correct class name so it is not matching it up. 
 
 ## Part 2 (3pts.): Using the `Math` **Library**
 
@@ -60,7 +160,7 @@ Leave the existing code in the file and add the requested functionality to it:
 
 ### Q4: What value does the program output for log(0)?
 
-[Answer Here]
+-Infinity 
 
 ## Part 3 (9pts.): Using the Java API `math` **Package**.
 
@@ -80,15 +180,15 @@ import java.math.*;
 
 ### Q5 (2pts.): What is the value of the summed primitive `int`s? Explain why the value is either correct or incorrect.
 
-[Answer Here]
+1651507200, Incorrect memory overflow 
 
 ### Q6 (2pts.): What is the value for the summed `BigInteger` objects? Explain why the value is either correct or incorrect.
 
-[Answer Here]
+4000000000, Correct as it was able to add them correctly
 
 ### Q7 (2pts.): Why is it the case that there is no `BigShort` or `BigLong`?
 
-[Answer Here]
+Those two classes already account for this dilemma thus there is no need for them to e "Big"
 
 ### Q8: Upload this file and your Java source code to the corresponding D2L dropbox.
 
