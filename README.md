@@ -34,7 +34,9 @@ You used the java compiler to compile the program. There are many compile option
 
 ### Q1 (2pts.): Recompile the program you created using the `-verbose` flag. Copy and paste the resulting compilation output below, explain what the `-verbose` flag does, and the meaning of the output.
 
-Means to show me what is happening
+Means to show me what is happening.
+**Correction:**
+The compiler is told to print what is happening at every stage of the compilation process. The output is exactly what the Javac is doing and it compilation phases.
 
 [parsing started SimpleFileObject[C:\Users\ahmed\Downloads\compsci\sem4\IdeaProjects\CSC213Lab2\Lab2.java]]
 [parsing completed 18ms]
@@ -143,7 +145,8 @@ Class file
 ### Q3: Copy the *compiled* Java source file, rename it to some other valid file name, like `whatever.class`, and run it with the `java` command. Why does it not work?
 
 It is not the correct class name so it is not matching it up. 
-
+**Correction:**
+The JVM checks the name in the compiled class file which was not matching up with the "whatever.class". Thus prompting an error due to the mismatch.
 ## Part 2 (3pts.): Using the `Math` **Library**
 
 Leave the existing code in the file and add the requested functionality to it:
@@ -180,15 +183,20 @@ import java.math.*;
 
 ### Q5 (2pts.): What is the value of the summed primitive `int`s? Explain why the value is either correct or incorrect.
 
-1651507200, Incorrect memory overflow 
+**Corrected:**
+294967296, Incorrect memory overflow. Added instead of multiplied. 
 
 ### Q6 (2pts.): What is the value for the summed `BigInteger` objects? Explain why the value is either correct or incorrect.
 
-4000000000, Correct as it was able to add them correctly
+**Corrected:**
+4000000000, Correct as it was able to add them correctly. Due to the fact is was able to use as much memory as necassary due to the BigInteger class instead of the primitive ints that were of fixed size.
 
 ### Q7 (2pts.): Why is it the case that there is no `BigShort` or `BigLong`?
 
 Those two classes already account for this dilemma thus there is no need for them to e "Big"
+
+**Corrected:**
+Java only provides BigInteger because it already covers all integer sizes through arbitrary precision. 
 
 ### Q8: Upload this file and your Java source code to the corresponding D2L dropbox.
 
